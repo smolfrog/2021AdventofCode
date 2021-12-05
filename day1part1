@@ -7,9 +7,7 @@ public class count {
 		//initialize incrementing at 0
 		int inc = 0;
 
-		//a for loop? i can't really figure out how these work
-		//i expected the 2nd statement to just be i < depth.length, but that gave me an error
-		//but depth.length -1 works and i am confusion
+		//a for loop
 		for (int i = 0; i < depth.length -1; i++) {
 			//if i is smaller than i+1
 			if (depth[i]<depth[i+1]){
