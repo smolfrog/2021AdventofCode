@@ -69,9 +69,9 @@ public class threeOne {
             }
         }
         //gamma in decimal is 2346
-        System.out.println(gammaRate);
+        System.out.println("Gamma rate is: " + gammaRate);
         //epsilon in decimal is 1749
-        System.out.println(epsilonRate);
+        System.out.println("Epsilon rate is: " + epsilonRate);
         //gamma * epsilon = 4103154
     }
   }
